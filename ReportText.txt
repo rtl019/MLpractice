@@ -1,0 +1,12 @@
+Command line:
+
+>>> Report(-121.3914158,38.55042047,50,'ReportText')
+
+Report Text file generated:
+
+ REPORT:
+ Within distance 50 miles of the given latitude 38.55042047 and longitude -121.3914158 there were 982 residences sold.
+ The minimum and maximum selling prices within this distance 1551 and 884790 dollars respectively.
+ The mean selling price is 234125.450101833 dollars and the median selling price is 213723.5 dollars.
+ The mean number of beds is 2.9124236252545823 and the mean number of bathrooms are 1.7769857433808554 .
+ The number of crimes reported within that distance are 7584
