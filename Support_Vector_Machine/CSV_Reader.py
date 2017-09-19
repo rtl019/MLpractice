@@ -5,7 +5,8 @@ def Reader(fileName):
     for row in dicr:
         #L=[]
         #L.append(row['price'])
-        print(row)    
+        print(row['beds'])
+        
     
         
     
