@@ -3,9 +3,12 @@ def Reader(fileName):
     file=open(fileName)
     dicr=csv.DictReader(file)
     for row in dicr:
-        #L=[]
-        #L.append(row['price'])
-        print(row['beds'])
+        size=[]
+        size.append(row['sq__ft'])
+        price=[]
+        price.append(row['price'])
+        print(size[1])
+        print(price[1])
         
     
         
