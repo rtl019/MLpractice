@@ -15,8 +15,8 @@ from CSV_Reader import *
 def main(): 
 	print("Hi machine learning from Python")
 	file=input("CSV file from where the data needs to be read : ")
-	price=Reader(file)
-	print(type(price)) 
+	price,size=Reader(file)
+	#print(type(price) 
 
 
 

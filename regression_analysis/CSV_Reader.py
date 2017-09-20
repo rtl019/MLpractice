@@ -7,8 +7,7 @@ def Reader(fileName):
         size.append(row['sq__ft'])
         price=[]
         price.append(row['price'])
-        print(size[1])
-        print(price[1])
+        return price,size 
         
     
         
